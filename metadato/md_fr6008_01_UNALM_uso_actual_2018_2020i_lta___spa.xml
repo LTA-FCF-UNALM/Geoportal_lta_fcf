@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:gts="http://www.isotc211.org/2005/gts/"
+    xmlns:xlink="http://www.w3.org/1999/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>MD_FR6008_01_uso2018_2020I_LTA</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gmd:LanguageCode
+            codeList="./resources/codeList.xml#LanguageCode" codeListValue="spa">spa</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet gco:nilReason="missing"/>
+    <gmd:parentIdentifier gco:nilReason="missing"/>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+        <gco:CharacterString>FR6008_01_uso2007_2020I_LTA</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName gco:nilReason="missing"/>
+            <gmd:organisationName>
+                <gco:CharacterString>LABORATORIO DE TELEDETECCIÓN APLICADA Y SIG- FCF UNALM</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName gco:nilReason="missing"/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+511 614 7800 Anexo 232</gco:CharacterString>
+                            </gmd:voice>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:city>
+                                <gco:CharacterString>LIMA</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>AV. LA UNIVERSIDAD S/N, LA MOLINA.</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:country>
+                                <gco:CharacterString>PERÚ</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>jhuamani@lamolina.edu.pe</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.lamolina.edu.pe/Facultad/forestales/teledeteccion/frame.htm</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:name>
+                                <gco:CharacterString>LABORATORIO DE TELEDETECCIÓN APLICADA Y SIG- FCF UNALM</gco:CharacterString>
+                            </gmd:name>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                    <gmd:hoursOfService>
+                        <gco:CharacterString>LUNES A VIERNES DE 8:00 A 15:45</gco:CharacterString>
+                    </gmd:hoursOfService>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2018-01-01</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO19115:2003/Cor 1 2006</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>32718</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>MAPA DE USO UNALM 2018</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2018-01-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Mapa de uso de la UNALM del año 2018, elaborado con fines educativos, según el protocolo metodológico del curso de Sistemas de Información Geográfica y Posicionamiento Global que imparte la Facultad de Ciencias Forestales de la UNALM. La clasificación manual se realizó utilizando un mosaico a partir de la fotos digitales aéreas del dron Lancaster del año 2018 y con una resolución espacial de 4,4cm. Los atributos del archivo espacial son:
+                
+                * Uso_de_Tie: indica el uso de del suelo que se está dando en el territorio de la UNALM para el año en mención. Los usos son:
+                	- Vegetación
+                 	- Sin vegetación / edificación
+                	- Agua
+                	- Otros
+                
+                * Clasificac: indica la clasificación a mayor detalle del so de del suelo que se está dando en el territorio de la UNALM para el año en mención. Las clases son:
+                	- Áreas verdes recreativas: Área verde es un terreno que se caracteriza por la presencia de árboles y plantas en un lugar determinado.
+                	- Áreas cultivadas de producción: Área en la cual se tiene como finalidad contribuir al desarrollo integral de la Universidad y en la generación de recursos propios a través de la producción de bienes y servicios.
+                	- Áreas cultivadas de educación / investigación:Tiene como finalidad contribuir al desarrollo integral de la Universidad, en lo académico, investigación agrícola, proyección social.
+                	- Rectorado / Administrativa:Es el lugar donde se encuentra la máxima autoridad académica de una universidad o institución educativa de educación superior y ostenta su representación. Oficinas administrativas, áreas donde se desarrollan actividades administrativas de la comunidad Universitaria.
+                	- Facultades / EPG: Sección de una universidad que corresponde a una rama del saber dentro del ámbito de las letras o las ciencias puras. Tiene la capacidad de organizar los estudios de varias carreras y expedir los títulos.
+                	- Bienestar Estudiantil: Oficinas o locales que gestionan los procesos de categorización, recategorización, becas y apoyo social para los alumnos en una universidad o centro educativo.
+                	- Biblioteca: Edificio o local donde se conservan un conjunto de libros ordenados y clasificados para su consulta o préstamo bajo determinadas condiciones. La Biblioteca Agrícola Nacional es el principal Centro de Información en el área de Ciencias Agropecuarias y afines de la Universidad Nacional Agraria La Molina.
+                	- Deportes: Edificio o local donde realizan actividad o ejercicio físico, sujeto a determinadas normas, en que se hace prueba, con o sin competición, de habilidad, destreza o fuerza física.
+                	- Auditorio: Sala o local de gran capacidad especialmente acondicionado para la celebración de conferencias, coloquios, conciertos, espectáculos, etc.
+                	- Aulas: Salón de un edificio que se destina a actividades de enseñanza, y es la unidad básica de todo recinto destinado a la educación.
+                	- Cafetines:Establecimiento donde se ofrecen servicios a la carta de café, almuerzos  y otros artículos de comer y beber.
+                	- CCFF: El Centro Federado es una asociación de estudiantes de pre-grado de la Universidad Nacional Agraria La Molina, sin fines lucro que promueve la participación activa del estudiante en la vida universitaria, defiende sus derechos ante cualquier amenaza y ayuda al estudiante a insertarlo en un marco global de desempeño.
+                	- Estacionamientos:Espacio físico donde se deja el vehículo por un tiempo indeterminado cualquiera.
+                	- Laboratorios: Local provisto de aparatos equipos y utensilios adecuados para realizar experimentos científicos y análisis químicos, farmacéuticos, etc.
+                	- Capilla: Capilla San Isidro Labrador, Lugar reservado al culto religioso, generalmente con altar. Los estudiantes pueden organizarse y relacionarse con el capellán encargado de la Capilla, para en forma organizada realizar las diversas actividades tales como oficios religiosos, bautismo, confirmación, celebraciones, matrimonios, etc.
+                	- Red de caminos y veredas:Áreas señaladas para el tránsito de los estudiantes dentro de UNALM.
+                	- Edificaciones de construcción: Las Unidades de Producción de la Universidad Nacional Agraria La Molina son órganos en donde se llevan a la práctica los avances científicos y tecnológicos del Área Agrícola, Pecuaria y Agroindustrial experimentados en los Programas e Institutos de Investigación. Cada Unidad de Producción cuentan con personal profesional y técnico altamente capacitado e infraestructura, para brindar productos y servicios de calidad a la comunidad.
+                
+                * Simbolo: es la combinación del uso de la tierra y la clasificación asignada.
+                
+                * Responsabl: indica el nombre de la persona responsable de la creación del archivo espacial.
+                
+                * Area: indica el área en hectáreas de los polígonos para cada clase.
+                
+                * Cod: indica el cógigo asigando a cada uso del suelo, el código es de dos dígitos pues reprensenta al uso más actual y se utilizará luego para analizar el cambio de uso frente a otro uso más antiguo.
+                	- 10: Vegetación
+                	- 20: Sin vegetación / edificación
+                	- 30: Agua
+                	- 40: Otros</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>EDUCATIVO</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:credit>
+                <gco:CharacterString>HUAMANÍ, JOHNNY; JULCA, JUAN &amp; PALOMINO, JORGE.</gco:CharacterString>
+            </gmd:credit>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName gco:nilReason="missing"/>
+                    <gmd:organisationName>
+                        <gco:CharacterString>LABORATORIO DE TELEDETECCIÓN APLICADA Y SIG- FCF UNALM</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName gco:nilReason="missing"/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jhuamani@lamolina.edu.pe</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>MAPA DE USO</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>UNALM</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName gco:nilReason="missing"/>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gmd:LanguageCode
+                    codeList="./resources/codeList.xml#LanguageCode" codeListValue="spa">spa</gmd:LanguageCode>
+            </gmd:language>
+            <gmd:characterSet gco:nilReason="missing"/>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:description gco:nilReason="missing"/>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>76</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>77</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-13</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>-12</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement gco:nilReason="missing"/>
+                    <gmd:verticalElement gco:nilReason="missing"/>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>SHP</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>2018</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+            <gmd:transferOptions gco:nilReason="missing"/>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode
+                            codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                    </gmd:level>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:description gco:nilReason="missing"/>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                    <gco:Decimal>76</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                    <gco:Decimal>77</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                    <gco:Decimal>-13</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                    <gco:Decimal>-12</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                            <gmd:temporalElement gco:nilReason="missing"/>
+                            <gmd:verticalElement gco:nilReason="missing"/>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                    <gmd:levelDescription gco:nilReason="missing"/>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:report gco:nilReason="missing"/>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>Mapa de uso de la UNALM del año 2018, elaborado con fines educativos, según el protocolo metodológico del curso de Sistemas de Información Geográfica y Posicionamiento Global que imparte la Facultad de Ciencias Forestales de la UNALM.</gco:CharacterString>
+                    </gmd:statement>
+                    <gmd:processStep gco:nilReason="missing"/>
+                    <gmd:source gco:nilReason="missing"/>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
