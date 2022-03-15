@@ -87,7 +87,7 @@ function fnc_log(values, context) {
 };
 
 function fnc_round(values, context) {
-    return Math.round(values[0]);
+    return false;
 };
 
 function fnc_rand(values, context) {
@@ -107,7 +107,7 @@ function fnc_min(values, context) {
 };
 
 function fnc_clamp(values, context) {
-    return Math.min(Math.max(values[0],values[1]),values[2]);
+    return false;
 };
 
 // Operators
@@ -131,31 +131,27 @@ function fnc_scale_exp(values, context) {
 };
 
 function fnc_floor(values, context) {
-    return Math.floor(values[0]);
+    return false;
 };
 
 function fnc_ceil(values, context) {
-    return Math.ceil(values[0]);
+    return false;
 };
 
 function fnc_pi(values, context) {
-    return Math.PI;
+    return false;
 };
 
 function fnc_to_int(values, context) {
-    var intVal = parseInt(values[0],10);
-    if ( isNaN(intVal) ) { return false };
-    return intVal;
+    return false;
 };
 
 function fnc_to_real(values, context) {
-    var realVal = parseFloat(values[0]);
-    if ( isNaN(realVal) ) { return false };
-    return realVal;
+    return false;
 };
 
 function fnc_to_string(values, context) {
-    return String(values[0]);
+    return false;
 };
 
 function fnc_to_datetime(values, context) {
@@ -267,7 +263,7 @@ function fnc_regexp_match(values, context) {
 };
 
 function fnc_now(values, context) {
-    return new Date().toISOString();
+    return false;
 };
 
 function fnc_age(values, context) {
@@ -307,25 +303,19 @@ function fnc_day_of_week(values, context) {
 };
 
 function fnc_lower(values, context) {
-    if ( typeof values[0] != "string" ) { return false; } 
     return values[0].toLowerCase();
 };
 
 function fnc_upper(values, context) {
-    if ( typeof values[0] != "string" ) { return false; } 
-    return values[0].toUpperCase();
+    return false;
 };
 
 function fnc_title(values, context) {
-    if ( typeof values[0] != "string" ) { return false; }
-    return values[0].toLowerCase().split(' ').map(function(word) {
-    return (word.charAt(0).toUpperCase() + word.slice(1));
-  }).join(' ');
+    return false;
 };
 
 function fnc_trim(values, context) {
-    if ( typeof values[0] != "string" ) { return false; } 
-    return String(values[0]).trim();
+    return false;
 };
 
 function fnc_levenshtein(values, context) {
@@ -345,7 +335,7 @@ function fnc_soundex(values, context) {
 };
 
 function fnc_char(values, context) {
-    if ( isNaN(values[0]) || !values[0]) { return null; } return String.fromCodePoint(values[0]);
+    return false;
 };
 
 function fnc_wordwrap(values, context) {
@@ -361,27 +351,23 @@ function fnc_replace(values, context) {
 };
 
 function fnc_regexp_replace(values, context) {
-    if ( !values[0] ) { return null; } return String(values[0]).replace(RegExp(values[1]),values[2]);
+    return false;
 };
 
 function fnc_regexp_substr(values, context) {
-    if ( !values[0] ) { return null; }
-    return String(values[0]).match(RegExp(values[1]))[0];
+    return false;
 };
 
 function fnc_substr(values, context) {
-    var length = values[2]
-    if ( !values[0] || isNaN(values[1])) { return false; }
-    return String(values[0]).substr(values[1], length);
+    return false;
 };
 
 function fnc_concat(values, context) {
-    return values.join(''); 
+    return false;
 };
 
 function fnc_strpos(values, context) {
-   if (!values[0] || !values[1]) {return null}
-   return String(values[0]).indexOf(String(values[1]))+1;
+    return false;
 };
 
 function fnc_left(values, context) {

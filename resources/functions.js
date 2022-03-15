@@ -1,20 +1,10 @@
 var createTextStyle = function(feature, resolution, labelText, labelFont,
-                               labelFill, placement, bufferColor,
-                               bufferWidth) {
+                               labelFill, placement) {
 
     if (feature.hide || !labelText) {
         return; 
     } 
 
-    if (bufferWidth == 0) {
-        var bufferStyle = null;
-    } else {
-        var bufferStyle = new ol.style.Stroke({
-            color: bufferColor,
-            width: bufferWidth
-        })
-    }
-    
     var textStyle = new ol.style.Text({
         font: labelFont,
         text: labelText,
@@ -26,8 +16,7 @@ var createTextStyle = function(feature, resolution, labelText, labelFont,
         maxAngle: 0,
         fill: new ol.style.Fill({
           color: labelFill
-        }),
-        stroke: bufferStyle
+        })
     });
 
     return textStyle;
