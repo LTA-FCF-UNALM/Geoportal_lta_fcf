@@ -414,7 +414,7 @@ a {
 	background:#CC0000;  /*#CC0000*/
 	padding:7px 20px;
 	font-family: 'Oswald', sans-serif;
-	text-transform:uppercase;
+	text-transform:uppercase; /*LETRA MAYUSCULA*/
 	
 }
 	.button:hover {
@@ -1994,6 +1994,19 @@ transform: rotate(360deg);
          height: 90%;
          overflow: hidden;
 }
+
+.imagen1:hover{
+border-radius:50%;
+-webkit-border-radius:5%;
+box-shadow: 0px 0px 15px 15px #CC0000;
+-webkit-box-shadow: 0px 0px 15px 15px #CC0000;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+         max-height: 800px;
+      width: 90%;
+         height: 90%;
+         overflow: hidden;
+
 
 .b {
   width: 450px;
